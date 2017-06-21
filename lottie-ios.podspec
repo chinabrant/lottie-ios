@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'lottie-ios'
-  s.version          = ‘1.5.4’
+  s.version          = '1.5.5'
   s.summary          = 'Used to natively render vector animations exported from After Effects.'
 
   s.description      = <<-DESC
@@ -17,9 +17,9 @@ Lottie is a mobile library for Android and iOS that parses Adobe After Effects a
 For the first time, designers can create and ship beautiful animations without an enginineer painstakingly recreating it be hand. Since the animation is backed by JSON they are extremely small in size but can be large in complexity! Animations can be played, resized, looped, sped up, slowed down, and even interactively scrubbed.
                        DESC
 
-  s.homepage         = 'https://github.com/airbnb/lottie-ios'
+  s.homepage         = 'https://github.com/chinabrant/lottie-ios'
   s.license          = { :type => 'Apache', :file => 'LICENSE' }
-  s.author           = { 'Brandon Withrow' => 'buba447@gmail.com' }
+  s.author           = { 'Brant' => 'sjwu1234@gmail.com' }
   s.source           = { :git => 'https://github.com/chinabrant/lottie-ios.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
